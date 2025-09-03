@@ -1,0 +1,18 @@
+.weatherContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2fr 1fr;
+  gap: 20px;
+  justify-self: center;
+}
+.weatherCard:first-child {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.weatherCard {
+  display: inline;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+}
