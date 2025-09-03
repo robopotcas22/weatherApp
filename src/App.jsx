@@ -51,26 +51,26 @@ function App() {
             <section className="weatherCard">
               <h3>{days[0]?.forecastStart?.slice(8, 10)}</h3>
               <p>Condición: {days[0]?.conditionCode}</p>
-              <p>Max: {Math.floor(days[0]?.temperatureMax)}</p>
-              <p>Min: {Math.floor(days[0]?.temperatureMin)}</p>
+              <p>Max: {Math.floor(days[0]?.temperatureMax)}°</p>
+              <p>Min: {Math.floor(days[0]?.temperatureMin)}°</p>
             </section>
             <section className="weatherCard">
               <h3>{days[1]?.forecastStart?.slice(8, 10)}</h3>
               <p>Condición: {days[1]?.conditionCode}</p>
-              <p>Max: {Math.floor(days[1]?.temperatureMax)}</p>
-              <p>Min: {Math.floor(days[1]?.temperatureMin)}</p>
+              <p>Max: {Math.floor(days[1]?.temperatureMax)}°</p>
+              <p>Min: {Math.floor(days[1]?.temperatureMin)}°</p>
             </section>
             <section className="weatherCard">
               <h3>{days[2]?.forecastStart?.slice(8, 10)}</h3>
               <p>Condición: {days[2]?.conditionCode}</p>
-              <p>Max: {Math.floor(days[2]?.temperatureMax)}</p>
-              <p>Min: {Math.floor(days[2]?.temperatureMin)}</p>
+              <p>Max: {Math.floor(days[2]?.temperatureMax)}°</p>
+              <p>Min: {Math.floor(days[2]?.temperatureMin)}°</p>
             </section>
             <section className="weatherCard">
               <h3>{days[3]?.forecastStart?.slice(8, 10)}</h3>
               <p>Condición: {days[3]?.conditionCode}</p>
-              <p>Max: {Math.floor(days[3]?.temperatureMax)}</p>
-              <p>Min: {Math.floor(days[3]?.temperatureMin)}</p>
+              <p>Max: {Math.floor(days[3]?.temperatureMax)}°</p>
+              <p>Min: {Math.floor(days[3]?.temperatureMin)}°</p>
             </section>
             <section className="weatherCard">
               <h3>{days[4]?.forecastStart?.slice(8, 10)}</h3>
